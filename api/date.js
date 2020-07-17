@@ -1,3 +1,3 @@
-module.exports = function(_, res) {
-  res.send(new Date().timeToString());
+module.exports = (_, res) => {
+  res.send(new Date().toTimeString());
 }
